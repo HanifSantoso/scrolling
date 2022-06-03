@@ -78,7 +78,7 @@
       });
     };
 
-    window.addEventListener('scrolled', checkSlide);
+    window.addEventListener('scrolled', debounce(checkSlide));
 
   </script>
 
